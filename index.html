@@ -1,0 +1,199 @@
+
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="CHOCOVERSE — premium chocolate made for every mood." />
+  <title>CHOCOVERSE — Taste the Unexpected</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <div class="loader" id="loader">
+    <div class="loader-logo">CHOCO<span>VERSE</span></div>
+    <div class="loader-bar"><span></span></div>
+  </div>
+
+  <header class="navbar">
+    <a href="#home" class="logo">CHOCO<span>VERSE</span></a>
+
+    <nav class="nav-links">
+      <a href="#shop">Shop</a>
+      <a href="#story">Our Story</a>
+      <a href="#flavors">Flavors</a>
+    </nav>
+
+    <button class="cart-btn" id="cartOpen" aria-label="Open shopping cart">
+      Bag <span id="cartCount">0</span>
+    </button>
+
+    <button class="menu-btn" id="menuToggle" aria-label="Open menu">☰</button>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-copy">
+        <p class="eyebrow">THE NEXT GENERATION OF CHOCOLATE</p>
+        <h1>TASTE<br><em>THE</em><br>UNEXPECTED.</h1>
+        <p class="hero-description">
+          Big flavor. Bold personality. Chocolate made to turn
+          ordinary moments into something unforgettable.
+        </p>
+        <div class="hero-actions">
+          <a href="#shop" class="btn btn-dark">Shop chocolate ↗</a>
+          <a href="#story" class="text-link">Discover our story →</a>
+        </div>
+      </div>
+
+      <div class="hero-visual" id="heroVisual">
+        <div class="burst">100%<br>GOOD<br>MOOD</div>
+
+        <div class="chocolate-3d" id="chocolate">
+          <div class="choc-face front">
+            <div class="choc-brand">CHOCO<br>VERSE</div>
+            <div class="choc-pattern">
+              <span></span><span></span><span></span>
+              <span></span><span></span><span></span>
+            </div>
+            <div class="choc-flavor">MILK CHOCOLATE</div>
+          </div>
+          <div class="choc-face back"></div>
+          <div class="choc-face side"></div>
+          <div class="choc-face top"></div>
+        </div>
+
+        <div class="hero-sticker">SO<br>GOOD<br>★</div>
+      </div>
+
+      <div class="hero-bottom">
+        <span>SCROLL TO EXPLORE</span>
+        <span class="scroll-line"></span>
+        <span>EST. 2026</span>
+      </div>
+    </section>
+
+    <section class="marquee">
+      <div class="marquee-track">
+        <span>GOOD CHOCOLATE</span><b>✳</b>
+        <span>GOOD MOOD</span><b>✳</b>
+        <span>GOOD VIBES</span><b>✳</b>
+        <span>GOOD CHOCOLATE</span><b>✳</b>
+        <span>GOOD MOOD</span><b>✳</b>
+        <span>GOOD VIBES</span><b>✳</b>
+      </div>
+    </section>
+
+    <section class="intro section" id="story">
+      <p class="eyebrow">WHY CHOCOVERSE?</p>
+      <h2>Chocolate<br>without the<br><em>boring bits.</em></h2>
+      <p class="section-description">
+        We believe chocolate should taste amazing, look incredible,
+        and bring a little more fun into your day.
+      </p>
+      <div class="values-grid">
+        <article><span>01</span><h3>Bold flavors</h3><p>Classic comfort meets unexpected combinations.</p></article>
+        <article><span>02</span><h3>Good ingredients</h3><p>Thoughtfully crafted recipes with clear ingredient information.</p></article>
+        <article><span>03</span><h3>Made for sharing</h3><p>Unwrap a little happiness and pass it on.</p></article>
+      </div>
+    </section>
+
+    <section class="shop section" id="shop">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">THE COLLECTION</p>
+          <h2>Find your<br><em>favorite.</em></h2>
+        </div>
+        <p class="section-description">Something for every chocolate mood.</p>
+      </div>
+
+      <div class="filter-row">
+        <button class="filter active" data-filter="all">All</button>
+        <button class="filter" data-filter="milk">Milk</button>
+        <button class="filter" data-filter="dark">Dark</button>
+        <button class="filter" data-filter="crunchy">Crunchy</button>
+      </div>
+
+      <div class="products-grid" id="productsGrid"></div>
+    </section>
+
+    <section class="flavor-section" id="flavors">
+      <div class="flavor-copy">
+        <p class="eyebrow">MEET THE FLAVORS</p>
+        <h2>Which mood<br>are you in?</h2>
+        <p>Choose your vibe. Find your bar.</p>
+        <div class="flavor-tabs">
+          <button class="flavor-tab active" data-flavor="milk">Milk</button>
+          <button class="flavor-tab" data-flavor="dark">Dark</button>
+          <button class="flavor-tab" data-flavor="crunchy">Crunchy</button>
+        </div>
+      </div>
+      <div class="flavor-display" id="flavorDisplay">
+        <div class="flavor-bar milk-bar"></div>
+        <p class="flavor-label" id="flavorLabel">MILK CHOCOLATE</p>
+      </div>
+    </section>
+
+    <section class="promise section">
+      <p class="eyebrow">THE CHOCOVERSE PROMISE</p>
+      <h2>Every bite.<br><em>More joy.</em></h2>
+      <div class="promise-grid">
+        <div class="promise-card"><strong>01</strong><h3>Crafted with care</h3><p>We focus on delicious recipes and clear product information.</p></div>
+        <div class="promise-card"><strong>02</strong><h3>Made for moments</h3><p>A little break, a big celebration, or a gift for someone special.</p></div>
+        <div class="promise-card"><strong>03</strong><h3>Always curious</h3><p>New flavors and ideas are always on the horizon.</p></div>
+      </div>
+    </section>
+
+    <section class="cta-section">
+      <p class="eyebrow">READY TO UNWRAP?</p>
+      <h2>Your next<br><em>favorite</em><br>is waiting.</h2>
+      <a href="#shop" class="btn btn-light">Explore the collection ↗</a>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-top">
+      <a href="#home" class="logo">CHOCO<span>VERSE</span></a>
+      <p>Chocolate for your good mood.</p>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 CHOCOVERSE. Demo brand.</span>
+      <span>Made with chocolate & code.</span>
+    </div>
+  </footer>
+
+  <!-- Shopping cart -->
+  <div class="overlay" id="overlay"></div>
+  <aside class="cart-drawer" id="cartDrawer" aria-label="Shopping cart">
+    <div class="cart-header">
+      <h2>Your bag <span id="cartTitleCount">0</span></h2>
+      <button id="cartClose" class="close-btn" aria-label="Close cart">✕</button>
+    </div>
+    <div class="cart-items" id="cartItems"></div>
+    <div class="cart-footer">
+      <div class="cart-total"><span>Subtotal</span><strong id="cartTotal">₹0</strong></div>
+      <p class="cart-note">Shipping and taxes calculated at checkout.</p>
+      <button class="btn btn-dark full" id="checkoutOpen">Checkout →</button>
+    </div>
+  </aside>
+
+  <!-- Checkout -->
+  <div class="checkout-modal" id="checkoutModal" role="dialog" aria-modal="true" aria-label="Checkout">
+    <div class="checkout-card">
+      <button class="close-btn" id="checkoutClose">✕</button>
+      <p class="eyebrow">YOUR ORDER</p>
+      <h2>Almost<br><em>there.</em></h2>
+      <div id="checkoutSummary"></div>
+      <form id="checkoutForm">
+        <label>Full name<input name="name" required placeholder="Your name" /></label>
+        <label>Email<input type="email" name="email" required placeholder="you@example.com" /></label>
+        <label>Delivery address<textarea name="address" required placeholder="Your address"></textarea></label>
+        <button class="btn btn-dark full" type="submit">Place demo order →</button>
+      </form>
+      <p class="demo-note">Demo checkout — no payment is processed.</p>
+      <div id="orderSuccess" class="order-success" hidden></div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
